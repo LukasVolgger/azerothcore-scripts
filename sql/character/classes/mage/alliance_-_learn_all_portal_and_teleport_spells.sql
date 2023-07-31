@@ -1,0 +1,23 @@
+SET
+@CHARACTER = 1;
+
+DELETE
+FROM `character_spell`
+WHERE `guid` = @CHARACTER
+  AND `spell` IN (3561, 3562, 3565, 10059, 11416, 11419, 32266, 32271, 33690, 33691, 49359, 49360, 53140, 53142);
+
+INSERT INTO `character_spell` (`guid`, `spell`, `specMask`)
+VALUES (@CHARACTER, 3561, 255),
+       (@CHARACTER, 3562, 255),
+       (@CHARACTER, 3565, 255),
+       (@CHARACTER, 10059, 255),
+       (@CHARACTER, 11416, 255),
+       (@CHARACTER, 11419, 255),
+       (@CHARACTER, 32266, 255),
+       (@CHARACTER, 32271, 255),
+       (@CHARACTER, 33690, 255),
+       (@CHARACTER, 33691, 255),
+       (@CHARACTER, 49359, 255),
+       (@CHARACTER, 49360, 255),
+       (@CHARACTER, 53140, 255),
+       (@CHARACTER, 53142, 255);
