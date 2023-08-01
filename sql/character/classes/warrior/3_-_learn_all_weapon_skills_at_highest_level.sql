@@ -1,5 +1,22 @@
+-- Sets all possible weapon skills (also the learnable ones) to the highest level
+-- 43 = Swords
+-- 44 = Axes
+-- 45 = Bows
+-- 46 = Guns
+-- 54 = Maces
+-- 55 = Two-Handed Swords
+-- 95 = Defense
+-- 136 = Staves
+-- 160 = Two-Handed Maces
+-- 162 = Unarmed
+-- 172 = Two-Handed Axes
+-- 173 = Daggers
+-- 176 = Thrown
+-- 226 = Crossbows
+-- 229 = Polearms
+
 SET
-@CHARACTER = 2;
+@CHARACTER = 1;
 
 DELETE
 FROM `character_skills`

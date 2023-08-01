@@ -1,3 +1,11 @@
+-- Sets all possible weapon skills (also the learnable ones) to the highest level
+-- 43 = Swords
+-- 95 = Defense
+-- 136 = Staves
+-- 162 = Unarmed
+-- 173 = Daggers
+-- 228 = Wands
+
 SET
 @CHARACTER = 1;
 
