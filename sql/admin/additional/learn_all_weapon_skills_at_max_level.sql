@@ -17,12 +17,12 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 95, 136, 162, 173, 228);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 228, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 228, 400, 400);
 
 -- Sets all possible weapon skills (also the learnable ones) to the highest level
 -- 43 = Swords
@@ -41,12 +41,12 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 95, 136, 162, 173, 228);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 228, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 228, 400, 400);
 
 -- Sets all possible weapon skills (also the learnable ones) to the highest level
 -- 43 = Swords
@@ -65,12 +65,12 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 95, 136, 162, 173, 228);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 228, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 228, 400, 400);
 
 -- ###################################################################################################### Warrior
 
@@ -100,21 +100,21 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 44, 45, 46, 54, 55, 95, 136, 160, 162, 172, 173, 176, 226, 229);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 45, 1275, 1275),
-       (@CHARACTER, 46, 1275, 1275),
-       (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 55, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 160, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 172, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 176, 1275, 1275),
-       (@CHARACTER, 226, 1275, 1275),
-       (@CHARACTER, 229, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 45, 400, 400),
+       (@CHARACTER, 46, 400, 400),
+       (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 55, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 160, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 172, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 176, 400, 400),
+       (@CHARACTER, 226, 400, 400),
+       (@CHARACTER, 229, 400, 400);
 
 -- Sets all possible weapon skills (also the learnable ones) to the highest level
 -- 43 = Swords
@@ -142,21 +142,21 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 44, 45, 46, 54, 55, 95, 136, 160, 162, 172, 173, 176, 226, 229);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 45, 1275, 1275),
-       (@CHARACTER, 46, 1275, 1275),
-       (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 55, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 160, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 172, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 176, 1275, 1275),
-       (@CHARACTER, 226, 1275, 1275),
-       (@CHARACTER, 229, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 45, 400, 400),
+       (@CHARACTER, 46, 400, 400),
+       (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 55, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 160, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 172, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 176, 400, 400),
+       (@CHARACTER, 226, 400, 400),
+       (@CHARACTER, 229, 400, 400);
 
 -- ###################################################################################################### Hunter
 
@@ -184,19 +184,19 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 44, 45, 46, 55, 95, 136, 162, 172, 173, 176, 226, 229);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 45, 1275, 1275),
-       (@CHARACTER, 46, 1275, 1275),
-       (@CHARACTER, 55, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 172, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 176, 1275, 1275),
-       (@CHARACTER, 226, 1275, 1275),
-       (@CHARACTER, 229, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 45, 400, 400),
+       (@CHARACTER, 46, 400, 400),
+       (@CHARACTER, 55, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 172, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 176, 400, 400),
+       (@CHARACTER, 226, 400, 400),
+       (@CHARACTER, 229, 400, 400);
 
 -- Sets all possible weapon skills (also the learnable ones) to the highest level
 -- 43 = Swords
@@ -222,19 +222,19 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 44, 45, 46, 55, 95, 136, 162, 172, 173, 176, 226, 229);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 45, 1275, 1275),
-       (@CHARACTER, 46, 1275, 1275),
-       (@CHARACTER, 55, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 172, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 176, 1275, 1275),
-       (@CHARACTER, 226, 1275, 1275),
-       (@CHARACTER, 229, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 45, 400, 400),
+       (@CHARACTER, 46, 400, 400),
+       (@CHARACTER, 55, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 172, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 176, 400, 400),
+       (@CHARACTER, 226, 400, 400),
+       (@CHARACTER, 229, 400, 400);
 
 -- ###################################################################################################### Druid
 
@@ -256,13 +256,13 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (54, 95, 136, 160, 162, 173, 229);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 160, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 229, 1275, 1275);
+VALUES (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 160, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 229, 400, 400);
 
 -- Sets all possible weapon skills (also the learnable ones) to the highest level
 -- 54 = Maces
@@ -282,13 +282,13 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (54, 95, 136, 160, 162, 173, 229);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 160, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 229, 1275, 1275);
+VALUES (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 160, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 229, 400, 400);
 
 -- ###################################################################################################### Warlock
 
@@ -309,12 +309,12 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 95, 136, 162, 173, 228);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 228, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 228, 400, 400);
 
 -- Sets all possible weapon skills (also the learnable ones) to the highest level
 -- 43 = Swords
@@ -333,12 +333,12 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 95, 136, 162, 173, 228);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 228, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 228, 400, 400);
 
 -- ###################################################################################################### Shaman
 
@@ -361,14 +361,14 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (44, 54, 95, 136, 160, 162, 172, 173);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 160, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 172, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275);
+VALUES (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 160, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 172, 400, 400),
+       (@CHARACTER, 173, 400, 400);
 
 -- Sets all possible weapon skills (also the learnable ones) to the highest level
 -- 44 = Axes
@@ -389,14 +389,14 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (44, 54, 95, 136, 160, 162, 172, 173);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 160, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 172, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275);
+VALUES (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 160, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 172, 400, 400),
+       (@CHARACTER, 173, 400, 400);
 
 -- ###################################################################################################### Paladin
 
@@ -420,15 +420,15 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 44, 54, 55, 95, 160, 162, 172, 229);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 55, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 160, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 172, 1275, 1275),
-       (@CHARACTER, 229, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 55, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 160, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 172, 400, 400),
+       (@CHARACTER, 229, 400, 400);
 
 -- Sets all possible weapon skills (also the learnable ones) to the highest level
 -- 43 = Swords
@@ -450,15 +450,15 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 44, 54, 55, 95, 160, 162, 172, 229);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 55, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 160, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 172, 1275, 1275),
-       (@CHARACTER, 229, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 55, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 160, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 172, 400, 400),
+       (@CHARACTER, 229, 400, 400);
 
 -- ###################################################################################################### Rogue
 
@@ -483,16 +483,16 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 44, 45, 46, 54, 95, 162, 173, 176, 226);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 45, 1275, 1275),
-       (@CHARACTER, 46, 1275, 1275),
-       (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 176, 1275, 1275),
-       (@CHARACTER, 226, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 45, 400, 400),
+       (@CHARACTER, 46, 400, 400),
+       (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 176, 400, 400),
+       (@CHARACTER, 226, 400, 400);
 
 -- Sets all possible weapon skills (also the learnable ones) to the highest level
 -- 43 = Swords
@@ -515,16 +515,16 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 44, 45, 46, 54, 95, 162, 173, 176, 226);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 45, 1275, 1275),
-       (@CHARACTER, 46, 1275, 1275),
-       (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 176, 1275, 1275),
-       (@CHARACTER, 226, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 45, 400, 400),
+       (@CHARACTER, 46, 400, 400),
+       (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 176, 400, 400),
+       (@CHARACTER, 226, 400, 400);
 
 -- ###################################################################################################### Priest
 
@@ -545,12 +545,12 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (54, 95, 136, 162, 173, 228);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 228, 1275, 1275);
+VALUES (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 228, 400, 400);
 
 -- Sets all possible weapon skills (also the learnable ones) to the highest level
 -- 54 = Maces
@@ -569,12 +569,12 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (54, 95, 136, 162, 173, 228);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 136, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 173, 1275, 1275),
-       (@CHARACTER, 228, 1275, 1275);
+VALUES (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 136, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 173, 400, 400),
+       (@CHARACTER, 228, 400, 400);
 
 -- ###################################################################################################### Deathknight
 
@@ -598,15 +598,15 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 44, 54, 55, 95, 160, 162, 172, 229);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 55, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 160, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 172, 1275, 1275),
-       (@CHARACTER, 229, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 55, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 160, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 172, 400, 400),
+       (@CHARACTER, 229, 400, 400);
 
 -- Sets all possible weapon skills (also the learnable ones) to the highest level
 -- 43 = Swords
@@ -628,12 +628,12 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (43, 44, 54, 55, 95, 160, 162, 172, 229);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 43, 1275, 1275),
-       (@CHARACTER, 44, 1275, 1275),
-       (@CHARACTER, 54, 1275, 1275),
-       (@CHARACTER, 55, 1275, 1275),
-       (@CHARACTER, 95, 1275, 1275),
-       (@CHARACTER, 160, 1275, 1275),
-       (@CHARACTER, 162, 1275, 1275),
-       (@CHARACTER, 172, 1275, 1275),
-       (@CHARACTER, 229, 1275, 1275);
+VALUES (@CHARACTER, 43, 400, 400),
+       (@CHARACTER, 44, 400, 400),
+       (@CHARACTER, 54, 400, 400),
+       (@CHARACTER, 55, 400, 400),
+       (@CHARACTER, 95, 400, 400),
+       (@CHARACTER, 160, 400, 400),
+       (@CHARACTER, 162, 400, 400),
+       (@CHARACTER, 172, 400, 400),
+       (@CHARACTER, 229, 400, 400);
