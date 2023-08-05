@@ -17,7 +17,7 @@ DESCRIPTION
  CONFIGURATION
 ***************************************************************************************************/
 SET @ADMINGUILDNAME = 'Administrators';
-SET @ALLISNCEADMINGUILDNAME = 'Alliance Administrators';
+SET @ALLIANCEADMINGUILDNAME = 'Alliance Administrators';
 SET @HORDEADMINGUILDNAME = 'Horde Administrators';
 SET @CREATEDATE = 1691263014;
 SET @BANKMONEY = 2140000000;
@@ -30,18 +30,18 @@ SET @GUILDRANK4 = 'Anfänger';
 -- guild
 DELETE FROM `guild` WHERE `guildid` IN (1, 2, 3);
 INSERT INTO `guild` (`guildid`, `name`, `leaderguid`, `EmblemStyle`, `EmblemColor`, `BorderStyle`, `BorderColor`, `BackgroundColor`, `info`, `motd`, `createdate`, `BankMoney`) VALUES (1, @ADMINGUILDNAME, 1, 20, 16, 0, 16, 35, '', 'No message set.', @CREATEDATE, @BANKMONEY);
-INSERT INTO `guild` (`guildid`, `name`, `leaderguid`, `EmblemStyle`, `EmblemColor`, `BorderStyle`, `BorderColor`, `BackgroundColor`, `info`, `motd`, `createdate`, `BankMoney`) VALUES (2, @ALLISNCEADMINGUILDNAME, 2, 20, 10, 0, 10, 32, '', 'No message set.', @CREATEDATE, @BANKMONEY);
+INSERT INTO `guild` (`guildid`, `name`, `leaderguid`, `EmblemStyle`, `EmblemColor`, `BorderStyle`, `BorderColor`, `BackgroundColor`, `info`, `motd`, `createdate`, `BankMoney`) VALUES (2, @ALLIANCEADMINGUILDNAME, 2, 20, 10, 0, 10, 32, '', 'No message set.', @CREATEDATE, @BANKMONEY);
 INSERT INTO `guild` (`guildid`, `name`, `leaderguid`, `EmblemStyle`, `EmblemColor`, `BorderStyle`, `BorderColor`, `BackgroundColor`, `info`, `motd`, `createdate`, `BankMoney`) VALUES (3, @HORDEADMINGUILDNAME, 12, 20, 1, 0, 0, 44, '', 'No message set.', @CREATEDATE, @BANKMONEY);
 
 -- guild_bank_eventlog
 DELETE FROM `guild_bank_eventlog` WHERE `guildid`=1 AND `LogGuid`=0 AND `TabId`=100;
-INSERT INTO `guild_bank_eventlog` (`guildid`, `LogGuid`, `TabId`, `EventType`, `PlayerGuid`, `ItemOrMoney`, `ItemStackCount`, `DestTabId`, `TimeStamp`) VALUES (1, 0, 100, 4, 1, 2140000000, 0, 0, @CREATEDATE);
+INSERT INTO `guild_bank_eventlog` (`guildid`, `LogGuid`, `TabId`, `EventType`, `PlayerGuid`, `ItemOrMoney`, `ItemStackCount`, `DestTabId`, `TimeStamp`) VALUES (1, 0, 100, 4, 1, @BANKMONEY, 0, 0, @CREATEDATE);
 -- Alliance
 DELETE FROM `guild_bank_eventlog` WHERE `guildid`=2 AND `LogGuid`=0 AND `TabId`=100;
-INSERT INTO `guild_bank_eventlog` (`guildid`, `LogGuid`, `TabId`, `EventType`, `PlayerGuid`, `ItemOrMoney`, `ItemStackCount`, `DestTabId`, `TimeStamp`) VALUES (2, 0, 100, 4, 2, 2140000000, 0, 0, @CREATEDATE);
+INSERT INTO `guild_bank_eventlog` (`guildid`, `LogGuid`, `TabId`, `EventType`, `PlayerGuid`, `ItemOrMoney`, `ItemStackCount`, `DestTabId`, `TimeStamp`) VALUES (2, 0, 100, 4, 2, @BANKMONEY, 0, 0, @CREATEDATE);
 -- Horde
 DELETE FROM `guild_bank_eventlog` WHERE `guildid`=3 AND `LogGuid`=0 AND `TabId`=100;
-INSERT INTO `guild_bank_eventlog` (`guildid`, `LogGuid`, `TabId`, `EventType`, `PlayerGuid`, `ItemOrMoney`, `ItemStackCount`, `DestTabId`, `TimeStamp`) VALUES (3, 0, 100, 4, 12, 2140000000, 0, 0, @CREATEDATE);
+INSERT INTO `guild_bank_eventlog` (`guildid`, `LogGuid`, `TabId`, `EventType`, `PlayerGuid`, `ItemOrMoney`, `ItemStackCount`, `DestTabId`, `TimeStamp`) VALUES (3, 0, 100, 4, 12, @BANKMONEY, 0, 0, @CREATEDATE);
 
 -- guild_bank_right
 DELETE FROM `guild_bank_right` WHERE `guildid`=1 AND `TabId`=0 AND `rid`=0;
