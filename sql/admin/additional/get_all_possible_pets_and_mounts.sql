@@ -1,4 +1,15 @@
--- ###################################################################################################### Alliance - Mounts
+/***************************************************************************************************
+Faction:            Alliance / Horde / Both
+DB:                 characters
+DB Version:         2023-08-05
+Author:             Lukas Volgger
+****************************************************************************************************
+DESCRIPTION
+----------------------------------------------------------------------------------------------------
+- Explores all zones for all admin characters
+***************************************************************************************************/
+
+-- ################################################################################################# Alliance - Mounts
 
 SET @CHARACTER = 1;
 
@@ -1947,7 +1958,7 @@ REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER,
 REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 75596, 255);
 REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 75973, 255);
 
--- ###################################################################################################### Alliance - Pets
+-- ################################################################################################# Alliance - Pets
 SET @CHARACTER = 1;
 
 -- Sold by dealer
@@ -3730,7 +3741,7 @@ REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER,
 REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 69677, 255);
 REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 75906, 255);
 
--- ###################################################################################################### Horde - Mounts
+-- ################################################################################################# Horde - Mounts
 SET @CHARACTER = 12;
 
 -- Riding skills
@@ -5491,7 +5502,7 @@ REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER,
 REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 75596, 255);
 REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 75973, 255);
 
--- ###################################################################################################### Horde - Pets
+-- ################################################################################################# Horde - Pets
 SET @CHARACTER = 12;
 
 -- Sold by dealer
@@ -7112,7 +7123,7 @@ REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER,
 REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 69677, 255);
 REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 75906, 255);
 
--- ###################################################################################################### Class Mounts - DK
+-- ################################################################################################# Class Mounts - DK
 SET
 @CHARACTER = 11;
 
@@ -7135,7 +7146,7 @@ INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 48778, 
 REPLACE
 INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 54729, 255);
 
--- ###################################################################################################### Class Mounts - Druid
+-- ################################################################################################# Class Mounts - Druid
 SET
 @CHARACTER = 4;
 
@@ -7158,7 +7169,7 @@ INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 33943, 
 REPLACE
 INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 40120, 255);
 
--- ###################################################################################################### Class Mounts - Paladin Alliance
+-- ################################################################################################# Class Mounts - Paladin Alliance
 SET
 @CHARACTER = 7;
 
@@ -7174,7 +7185,7 @@ INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 23214, 
 REPLACE
 INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 66906, 255);
 
--- ###################################################################################################### Class Mounts - Paladin Horde
+-- ################################################################################################# Class Mounts - Paladin Horde
 SET
 @CHARACTER = 16;
 
@@ -7190,7 +7201,7 @@ INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 34767, 
 REPLACE
 INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 66906, 255);
 
--- ###################################################################################################### Class Mounts - Warlock
+-- ################################################################################################# Class Mounts - Warlock
 SET
 @CHARACTER = 5;
 
