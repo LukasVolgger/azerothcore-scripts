@@ -1,4 +1,5 @@
-SET @CHARACTER = 1;
+SET
+@CHARACTER = 1;
 
 -- Summon Warhorse
 REPLACE
