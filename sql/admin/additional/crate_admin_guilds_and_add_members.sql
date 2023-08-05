@@ -26,6 +26,7 @@ SET @GUILDRANK1 = 'Offizier';
 SET @GUILDRANK2 = 'Veteran';
 SET @GUILDRANK3 = 'Mitglied';
 SET @GUILDRANK4 = 'Anfänger';
+-- *************************************************************************************************
 
 -- guild
 DELETE FROM `guild` WHERE `guildid` IN (1, 2, 3);

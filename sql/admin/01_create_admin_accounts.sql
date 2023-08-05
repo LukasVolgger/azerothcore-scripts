@@ -20,6 +20,7 @@ SET @ACCOUNTNAME2 = 'ALLIANCEADMIN';
 SET @GMLEVELACCOUNT2 = 3;
 SET @ACCOUNTNAME3 = 'HORDEADMIN';
 SET @GMLEVELACCOUNT3 = 3;
+-- *************************************************************************************************
 
 -- account
 DELETE FROM `account` WHERE `id` IN (1, 2, 3);

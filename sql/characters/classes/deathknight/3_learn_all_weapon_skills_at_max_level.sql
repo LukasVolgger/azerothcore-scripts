@@ -17,6 +17,7 @@ DESCRIPTION
 SET @CHARACTER = 1;
 SET @VALUE = 400;
 SET @MAX = 400;
+-- *************************************************************************************************
 
 DELETE
 FROM `character_skills`
