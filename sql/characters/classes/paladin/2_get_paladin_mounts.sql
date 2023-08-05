@@ -1,12 +1,12 @@
 SET @CHARACTER = 1;
 
--- Warhorse
+-- Summon Warhorse
 REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 13819, 255);
+INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 34769, 255);
 
--- Charger
+-- Summon Charger
 REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 23214, 255);
+INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 34767, 255);
 
 -- Argent Charger
 REPLACE
