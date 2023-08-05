@@ -1,5 +1,5 @@
 /***************************************************************************************************
-Faction:            Alliance / Horde
+Faction:            Both
 DB:                 auth
 DB Version:         2023-04-24
 Author:             Lukas Volgger
