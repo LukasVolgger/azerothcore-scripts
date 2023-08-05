@@ -25,10 +25,10 @@ WHERE `guid` = @CHARACTER
   AND `skill` IN (54, 95, 136, 160, 162, 173, 229);
 
 INSERT INTO `character_skills` (`guid`, `skill`, `value`, `max`)
-VALUES (@CHARACTER, 54, 400, 400),
-       (@CHARACTER, 95, 400, 400),
-       (@CHARACTER, 136, 400, 400),
-       (@CHARACTER, 160, 400, 400),
-       (@CHARACTER, 162, 400, 400),
-       (@CHARACTER, 173, 400, 400),
-       (@CHARACTER, 229, 400, 400);
+VALUES (@CHARACTER, 54, @VALUE, @MAX),
+       (@CHARACTER, 95, @VALUE, @MAX),
+       (@CHARACTER, 136, @VALUE, @MAX),
+       (@CHARACTER, 160, @VALUE, @MAX),
+       (@CHARACTER, 162, @VALUE, @MAX),
+       (@CHARACTER, 173, @VALUE, @MAX),
+       (@CHARACTER, 229, @VALUE, @MAX);
