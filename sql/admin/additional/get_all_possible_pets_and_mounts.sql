@@ -1,7 +1,7 @@
 /***************************************************************************************************
 Faction:            Both
 DB:                 characters
-DB Version:         2023-08-05
+DB Version:         2023-04-23
 Author:             Lukas Volgger
 ****************************************************************************************************
 DESCRIPTION
@@ -7124,102 +7124,76 @@ REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER,
 REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 75906, 255);
 
 -- ################################################################################################# Class Mounts - DK
-SET
-@CHARACTER = 11;
+SET @CHARACTER = 11;
 
 -- Acherus Deathcharger
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 48778, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 48778, 255);
 
 -- Winged Steed of the Ebon Blade
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 54729, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 54729, 255);
 
-SET
-@CHARACTER = 21;
+SET @CHARACTER = 21;
 
 -- Acherus Deathcharger
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 48778, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 48778, 255);
 
 -- Winged Steed of the Ebon Blade
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 54729, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 54729, 255);
 
 -- ################################################################################################# Class Mounts - Druid
-SET
-@CHARACTER = 4;
+SET @CHARACTER = 4;
 
 -- Flight Form
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 33943, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 33943, 255);
 
 -- Swift Flight Form
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 40120, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 40120, 255);
 
-SET
-@CHARACTER = 14;
+SET @CHARACTER = 14;
 
 -- Flight Form
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 33943, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 33943, 255);
 
 -- Swift Flight Form
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 40120, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 40120, 255);
 
 -- ################################################################################################# Class Mounts - Paladin Alliance
-SET
-@CHARACTER = 7;
+SET @CHARACTER = 7;
 
 -- Warhorse
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 13819, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 13819, 255);
 
 -- Charger
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 23214, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 23214, 255);
 
 -- Argent Charger
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 66906, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 66906, 255);
 
 -- ################################################################################################# Class Mounts - Paladin Horde
-SET
-@CHARACTER = 16;
+SET @CHARACTER = 16;
 
 -- Summon Warhorse
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 34769, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 34769, 255);
 
 -- Summon Charger
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 34767, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 34767, 255);
 
 -- Argent Charger
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 66906, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 66906, 255);
 
 -- ################################################################################################# Class Mounts - Warlock
-SET
-@CHARACTER = 5;
+SET @CHARACTER = 5;
 
 -- Felsteed
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 5784, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 5784, 255);
 
 -- Dreadsteed
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 23161, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 23161, 255);
 
-SET
-@CHARACTER = 17;
+SET @CHARACTER = 17;
 
 -- Felsteed
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 5784, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 5784, 255);
 
 -- Dreadsteed
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 23161, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 23161, 255);

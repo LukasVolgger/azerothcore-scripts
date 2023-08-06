@@ -1,7 +1,7 @@
 /***************************************************************************************************
 Faction:            Both
 DB:                 characters
-DB Version:         2023-08-05
+DB Version:         2023-04-23
 Author:             Lukas Volgger
 ****************************************************************************************************
 DESCRIPTION
@@ -16,9 +16,7 @@ SET @CHARACTER = 1;
 -- *************************************************************************************************
 
 -- Acherus Deathcharger
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 48778, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 48778, 255);
 
 -- Winged Steed of the Ebon Blade
-REPLACE
-INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 54729, 255);
+REPLACE INTO `character_spell` (`guid`, `spell`, `specMask`) VALUES (@CHARACTER, 54729, 255);
