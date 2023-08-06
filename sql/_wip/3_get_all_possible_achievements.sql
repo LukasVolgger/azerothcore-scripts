@@ -1,15 +1,3 @@
-SET @CHARACTER = 1;
-
--- Level 255
-UPDATE `characters` SET `level`=255 WHERE  `guid`=@CHARACTER;
-
--- Money 
-UPDATE `characters` SET `money`=999999999 WHERE  `guid`=@CHARACTER;
-
--- Bank slots
-UPDATE `characters` SET `bankSlots`=7 WHERE  `guid`=@CHARACTER;
-
-
 -- Achievements - General
 REPLACE INTO `character_achievement` (`guid`, `achievement`, `date`) VALUES (@CHARACTER, 6, UNIX_TIMESTAMP()); -- Level 10
 REPLACE INTO `character_achievement` (`guid`, `achievement`, `date`) VALUES (@CHARACTER, 7, UNIX_TIMESTAMP()); -- Level 20
